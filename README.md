@@ -1,11 +1,7 @@
-# Sample Snack app
+# Module 03 Assignment 2 - Star Wars API
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+https://github.com/user-attachments/assets/a0c9ad57-ed82-43f6-b22a-e916e4efc18c
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+# Module 02 Assignment 2 - Star Wars
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+<img width="382" height="743" alt="image" src="https://github.com/user-attachments/assets/944a6d9a-c745-48e6-8e67-9974d5a8011d" />
