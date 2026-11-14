@@ -25,6 +25,9 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Module 02 Assignment 2 - Star Wars"
+    "description": "Module 02 Assignment 2 - Star Wars",
+    "plugins": [
+      "expo-status-bar"
+    ]
   }
 }

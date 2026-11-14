@@ -1,5 +1,6 @@
 // Jeremy Nally - Module 02 Assignment 2 - Star Wars
 // Main entry point - set platform specific navigation
+import 'react-native-gesture-handler';
 import React from 'react';
 import { Platform } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
