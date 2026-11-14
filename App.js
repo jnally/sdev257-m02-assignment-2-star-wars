@@ -1,4 +1,4 @@
-// Jeremy Nally - Module 02 Assignment 2 - Star Wars
+// Jeremy Nally - Module 03 Assignment 2 - Star Wars API (previously Module 02 Assignment 2 - Star Wars)
 // Main entry point - set platform specific navigation
 import 'react-native-gesture-handler';
 import React from 'react';
@@ -17,6 +17,7 @@ const Drawer = createDrawerNavigator();
 export default function App() {
   const isAndroid = Platform.OS === 'android';
 
+  // Build navigation
   return (
     <NavigationContainer>
       {isAndroid ? (
