@@ -1,4 +1,4 @@
-Module 04 Assignment 2 - Star Wars Search
+# Module 04 Assignment 2 - Star Wars Search
 
 https://github.com/user-attachments/assets/c3d00229-6b06-4352-8b44-939ef7e36fbd
 
