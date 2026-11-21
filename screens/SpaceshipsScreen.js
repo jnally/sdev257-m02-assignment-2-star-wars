@@ -1,6 +1,7 @@
 /* SpaceshipsScreens.js: Fetch starships info from https://www.swapi.tech/api/starships for SpaceshipsScreens of Star Wars app*/
 import React, { useState, useEffect } from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
+import SearchBar from '../components/SearchBar';
 
 export default function SpaceshipsScreen() {
   const [data, setData] = useState([]);
@@ -14,9 +15,10 @@ export default function SpaceshipsScreen() {
       });
   }, []);
 
-  // Render list of Star Wars ships
+  // Render list of Star Wars ships - now with search bar
   return (
     <View style={styles.container}>
+      <SearchBar />
       <FlatList
         data={data}
         keyExtractor={(item) => item.uid}

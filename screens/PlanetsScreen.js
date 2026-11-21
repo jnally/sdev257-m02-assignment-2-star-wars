@@ -1,6 +1,7 @@
 /* PlanetsScreen.js: Fetch planets info from https://www.swapi.tech/api/planets for PlanetsScreen of Star Wars app*/
 import React, { useState, useEffect } from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
+import SearchBar from '../components/SearchBar';
 
 export default function PlanetsScreen() {
   const [data, setData] = useState([]);
@@ -14,9 +15,10 @@ export default function PlanetsScreen() {
       });
   }, []);
 
-  // Render list of Star Wars planets
+  // Render list of Star Wars planets - now with search bar
   return (
     <View style={styles.container}>
+      <SearchBar />
       <FlatList
         data={data}
         keyExtractor={(item) => item.uid}
